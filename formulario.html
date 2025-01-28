@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header id="topo">
+        <h1>†Formulário†</h1>
+        <p>Página de Formulário</p>
+    </header>
+    <nav id="menu">
+        <a href="index.html">Inicial</a>&nbsp;&nbsp;
+        <a href="formulario.html">Formulário</a> &nbsp;&nbsp;
+        <a href="midia.html">Página de Mídia</a> &nbsp;&nbsp;
+    </nav> <br>
+    <form>
+        <h2>Entrada</h2>
+        <label for="Campo_nome"><b>Nome:</b></label>
+<input id="Campo_nome" type="text" placeholder="Digite seu nome aqui"> <br> <br>
+
+<label for="Campo_sobrenome"> <b>Sobrenome:</b></label> <input id="Campo_sobrenome" type="text" placeholder="Digite seu sobrenome aqui" required>
+<br> <br>
+
+<label for="Campo_email"><b>E-mal:</b></label> <input id="Campo_email" type="email" placeholder="Digite seu e-mail aqui" required> <br> <br>
+
+<label for="campo_senha"><b>Senha:</b></label> <input id="campo_senha" type="password" placeholder="Digite sua senha" required><br> <br>
+
+<hr>
+<h2>O que você tem em casa</h2> 
+<input type="radio" id="gato" name="animal" value="gato">
+<label for="gato"><b>Gato</b></label><br> <br>
+
+<input type="radio" id="Cobra" name="animal" value="Cobra">
+<label for="gato"><b>Cobra</b></label><br> <br>
+
+<input type="radio" id="Furão" name="animal" value="Furão">
+<label for="Furão"><b>Furão</b></label> <br> <br>
+<input id="Item1" type="checkbox" name="Item1" value="Tv">
+<label for="Item1"><b>TV</b></label><br> <br>
+
+<input id="Item2" type="checkbox" name="Item2" value="Computador">
+<label for="Item2"><b>Computador</b></label><br> <br>
+
+<input id="Item3" type="checkbox" name="Item3" value="Video Game">
+<label for="Item3"><b>Video Game</b></label><br> <br>
+<hr>
+<h2>Escolha uma cor:</h2>
+<select name="Cores">
+    <option selected disabled value=""><b>Selecione uma cor</b></option>
+    <option value="Roxo"><b>Roxo</b></option>
+    <option value="Vermelho"><b>Vemelho</b></option>
+    <option value="Azul"><b>Azul</b></option>
+    <option value="Verde"><b>Verde</b></option>
+</select> 
+<br><br>
+<hr>
+<h2>Digite Sua Mensagem</h2>
+<textarea name="Mensagem usuário" rows="10" cols="60">Mensagem</textarea> <br>
+<input type="submit" value="Enviar Formulário"> <br> <br>
+
+    </form>
+    <br>
+    <button>Clique Aqui</button>
+    <br><br>
+    <footer id="rodape">
+        <p>&copy; 2025 - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
